@@ -1,0 +1,124 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(to top, 
+ #30cfd0 0%, #330867 100%);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+    z-index: -1;
+    font-family: 'Nunito', sans-serif;
+    
+}
+/*     Navigation    */
+ul {
+    position: absolute;
+    list-style: none;
+    right: 0px;   
+}
+a {
+    text-decoration: none;
+    color: white;  
+}
+nav {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    position: relative;
+    top: 820px;
+    padding: 20px 100px;
+    right: 260px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 63px 24px;
+}
+nav ul li a:hover {
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    transition: .10s;
+    
+}
+/*     My Pictures     */
+.pictures {
+    position: absolute;
+    border-radius: 25px;
+    border: 10px solid #ffffff;
+    left: 3%;
+    bottom: 230px;
+    width: 350px;
+    height: 500px;
+    align-items: center;
+    background-size: cover;
+    background-image: url(img/pictures.jpg);
+    cursor: pointer;
+}
+
+/*     Text       */
+.text {
+    position: absolute;
+    width: 550px;
+    left: 30%;
+    top: 40%;
+    color:rgb(255, 255, 255);
+    transform: translate(-0%,-0%);
+}
+.text h1 {
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.text p {
+    font-size: 23px;
+}
+/*
+.social-icons ul {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+} 
+
+@media only screen and (max-width:800px) {
+    /* For tablets: 
+    .pictures {
+      position: relative;
+      top: 10%;  
+      width: 100%;
+      height: 20%;
+    
+      
+      padding: 0;
+    }
+
+
+    .text {
+        left: 50px;
+        width: 100%;
+         
+    
+    }   
+  }
+  @media only screen and (max-width:800px) {
+    /* For mobile phones: 
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
+
+*/
+
+.Profile {
+    width: 100%;
+    height: 1000px
+    
+}

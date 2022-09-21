@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pure CSS Text Reveal fire Animation Effect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+}
+video{
+    object-fit: cover;
+    width: 100%;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 7em;
+    font-family: arial black;
+    text-transform: uppercase;
+}
+h1 span{
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+h1 span:nth-child(1){
+        color: #28ee0e;
+        opacity: 0;
+        animation-delay: 2s;
+}
+h1 span:nth-child(2){
+     
+    opacity: 0;
+    animation-delay: 2.5s;
+}
+h1 span:nth-child(3){
+    color: #28ee0e;
+    opacity: 0;
+    animation-delay: 2.7s;
+}
+h1 span:nth-child(4){
+     
+    opacity: 0;
+    animation-delay: 3s;
+}
+h1 span:nth-child(5){
+    color: #28ee0e;
+    opacity: 0;
+    animation-delay: 3.5s;
+}
+h1 span:nth-child(6){
+     
+    opacity: 0;
+    animation-delay: 3.75s;
+}
+h1 span:nth-child(7){
+    color: #28ee0e;
+    opacity: 0;
+    animation-delay: 4s;
+}
+h1 span:nth-child(8){
+    
+    opacity: 0;
+    animation-delay: 4.5s;
+}
+h1 span:nth-child(9){
+    color: #28ee0e;
+    opacity: 0;
+    animation-delay: 4.75s;
+}
+h1 span:nth-child(10) {
+    color: #28ee0e;
+    opacity: 0;
+    animation-delay: 4.75s;
+}
+h1 span:nth-child(11){
+    color: #28ee0e;
+    opacity: 0;
+    animation-delay: 4.75s;
+}
+h1 span:nth-child(12){
+    color: #28ee0e;
+    opacity: 0;
+    animation-delay: 4.75s;
+}
+h1 span:nth-child(13){
+    color: #28ee0e;
+    opacity: 0;
+    animation-delay: 4.75s;
+}
+h1 span:nth-child(14){
+    color: #28ee0e;
+    opacity: 0;
+    animation-delay: 4.75s;
+}
+
+    </style> 
+</head>
+<body>
+    <section>
+        <video src="fire.mp4" autoplay muted></video>
+        <h1>
+            <span>s</span>
+            <span>r</span>
+            <span>j</span>
+            <span>o</span>
+            <span>f</span>
+            <span>u</span>
+            <span>n</span>
+            <span>c</span>
+            <span>e</span>
+            <span>n</span>
+            <span>t</span>
+            <span>r</span>
+            <span>a</span>
+            <span>l</span>
+        </h1>
+    </section>
+</body>
+</html>
