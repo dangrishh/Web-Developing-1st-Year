@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap');
+:root {
+    --yellow: #e5ff00;
+    --violet: rgb(179, 26, 250);
+}
+* {
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px;
+    padding: 0;  
+    text-transform: capitalize;
+}
+ *::selection { /* ito naman ay pangselect */
+    background: var(--violet);
+ }
+ html { /* ito ung nimamaintain niya ung size ng text */
+     font-size: 85.5%;
+ }
+ html::-webkit-scrollbar {
+     width: 1rem;
+ }
+ html::-webkit-scrollbar-track{
+    background: rgb(192, 187, 187);
+}
+html::-webkit-scrollbar-thumb{
+    background: var(--blue);
+
+} 
+body {
+    overflow-x: hidden; /* this is technique to extend the page and same to section*/
+   
+}
+
+/* section { - ito 
+    min-height: 100vh;
+    padding:1rem;
+} */
+.bg-section1 {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-image: url(img/background\ DT.jpg);
+    background-size: cover;
+}
+ .imgs {
+    left: 50%;
+    height: 17rem;
+    width: 17rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    object-fit: cover; /*  ito ung nagccover ng pic  */
+    margin-bottom: 1rem;
+    border: .3rem solid var(--yellow);
+}
+.user {
+    position: absolute;
+    width: 550px;
+    left: 43%;
+    top: 35%;
+    color:rgb(0, 0, 0);
+    transform: translate(-0%,-0%);
+}
+.user .name {
+    position: relative;
+    left: 46px;
+    margin: 0px 0px 10px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+ul {
+    position: absolute;
+    list-style: none;
+    left: 500px;   
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 0, 255);  
+    font-size: 1.5rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+nav ul {
+    display: flex;
+}
+nav ul li a {
+    position: relative;
+    top: 820px;
+    padding: 20px 100px;
+    right: 270px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);  
+}
+nav ul li a:hover {
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    transition: .10s;
+}
+.bg-section3 {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    justify-content: center;
+    padding: 500px;
+}
+
+.bg-section3 .card {
+    position: relative;
+    width: 300px;
+    height: 215px;
+    background: #fff;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    box-shadow: 0.5px 202px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+}
+.bg-section2 .card:hover
+{   
+    height: 700px;
+    width: 700px;
+}
+.bg-section2 .card .imgBx {
+    position: relative;
+    width: 260px;
+    height: 260px;
+}
+.bg-section3 {
+    height: 100vh;
+    width: 100%;
+    background: rgb(53, 53, 53);
+}
+.bg-section4 {
+    height: 100vh;
+    width: 100%;
+    background: red;
+}
+
+
+

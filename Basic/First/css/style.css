@@ -1,0 +1,24 @@
+body {
+
+background-color: gray;
+background-image: url(../css/img/double-bubble-dark.png);
+ color: #3747b3;
+ font-size: 21px;
+
+}
+
+p {
+  color: ;
+}
+
+.box {
+  /* background-image: url(https://yesofcorsa.com/wp-content/uploads/2020/02/Program-Code-Wallpaper-Free.jpg); in shortcut */
+  outline: 2px solid white;
+  background-image: url(../css/img/dogs.jpg);
+  padding: 200px 100px;
+  margin: 100px;
+
+  background-size: cover;
+  background-position: center;
+
+}

@@ -1,0 +1,37 @@
+body{
+  background-color: #a7dbe3;
+  color: blue;
+  font-size: 21px;
+}
+p{
+  color: black;
+}
+h1{
+font-size: 70px;
+color: #3747b3 /*BLUE*/;
+}
+.intro{ /* with ( tuldok and # is with classes and the other is
+                      Divs and Spans there is 2 ramble.) */
+  font-size: 30px;
+  background: violet;
+}
+.highlight{
+  background: white;
+}
+.accent-color {
+  color: red;
+
+}
+/*div {
+  background: pink;
+  width: 500px; */
+}
+span {
+  color: yellow;
+}
+#top-section {
+  background: blue; #same lang sila ng tuldok at #
+  }
+#botton-section {
+background: yellow;
+}

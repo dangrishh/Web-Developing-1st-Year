@@ -1,0 +1,21 @@
+body {
+
+background-color: #000;
+ color: white;
+ font-size: 21px;
+ background-image: url("Card.png");
+ background-color: #white;
+}
+
+
+p{
+  color: #FF3300;
+
+}
+
+
+h1{
+font-size: 70px;
+color: pink;
+
+}

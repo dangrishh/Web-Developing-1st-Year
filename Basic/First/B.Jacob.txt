@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>REGISTRATION FORM</title>
+<style>
+body{
+    background-color:#006666;
+    color: #e6ffff;
+}
+.container{
+    border: solid #131229;
+    border-radius: 2%;
+    padding: 1%;
+    margin: auto;
+    width: 35%;
+}
+h1{
+    text-align: center;
+}
+input[type=text], input[type=email], select ,input[type=password]{
+    width: 100%;
+    border: none;
+    background-color: #006666;
+    border-bottom: 1px solid;
+    padding: 12px 20px;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+input[type=text]:hover, input[type=email]:hover, select:hover ,input[type=password]:hover {
+    background-color: #206040;
+    padding: 13px 21px;
+
+
+}   
+input[type=submit]{
+    width: 100%;
+    padding: 10px 10px;
+    background-color: #305030;
+    border-radius: 15px;
+    margin: auto;
+    
+}
+input[type=submit]:hover{
+    background-color:#437043;
+    padding: 11px 11px;
+}
+table{
+    margin:auto;
+    padding: 10px 10px;
+}
+tr{
+    border-bottom: 1px solid #131229;
+    
+}
+</style>
+    </head>
+<body>
+    <div class="container">
+<h1>REGISTRATION FORM</h1>
+<table>
+    <tr>
+    <td><input type="text" id="fname" name="fname" placeholder="Enter your First Name" required></td><br>
+    </tr>
+    <tr>
+    <td><input type="text" id="lname" name="lname" placeholder="Enter your Last Name" required></td> 
+    </tr>
+    <tr>
+<td><input type="email" id="email" name="email" placeholder="Enter your Email"></td>
+    </tr>
+    <tr>
+<td><select id="country" named="country">
+    <option value="Luzon"> Luzon</option>
+    <option value="Visayas"> Visayas</option>
+    <option value="Mindanao"> Mindanao</option>
+    <option value="Not from the Phil."> Not from the Phil.</option>
+</select></td></tr>
+<tr>
+<td><input type="text" id="username" name="username" placeholder="Your Username please" required><td>
+</tr>
+<tr>
+<td><input type="password" id="password" name="password" placeholder="Enter your Password" required></td>
+</tr>
+<tr>
+ <td> <input type="password" id="cp" placeholder="Confirm Password" required></td>
+</tr>
+<tr>
+<td> <input type="checkbox" required>I aggree to the terms and policies</td></tr><br>
+<tr><td><input type="submit" id="submit" name="submit" value="Submit"></tr></tr>
+</table>
+</div>
+</body>
+</html>

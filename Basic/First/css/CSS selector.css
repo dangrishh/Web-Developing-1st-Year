@@ -1,0 +1,63 @@
+body {
+background-color: #a7dbe3;
+
+color: #4e476e;
+font-size: 21px;
+
+font-family: Calibri,Candara,Segoe,
+'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+h1 {
+    font-size: 70px;
+    color: #3737b3;
+    font-family:'Courier New', Courier, monospace;
+    
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+a { 
+    color:blueviolet;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color:  #555;
+}
+
+.body-text {
+
+    background-color: rgb(148, 214, 240);
+    padding: 50px;
+}
+
+.body-text p {
+    color: rgb(235, 99, 223);
+}
+
+.body-text a {
+    color: rgb(88, 6, 88);   
+}
+
+.body-text a:hover {  
+    color: #CDD;
+}
+/*<!-- this is shortcut for body-text a to important-links--> 
+        this is the pages if shortcut "https://specificity.keegan.st/"*/
+.important-link { 
+    color: yellowgreen !important;
+}
+

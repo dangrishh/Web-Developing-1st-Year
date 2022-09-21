@@ -1,0 +1,40 @@
+body{
+  background-color: #a7dbe3;
+  color: blue;
+  font-size: 21px;
+}
+h1{
+font-size: 70px;
+color: #3747b3 /*BLUE*/;
+}
+p{
+  color: black;
+}
+
+          /* the CSS Box model */
+
+/*
+                Margin: ung margin niya sa labas ng box or text
+                Border: sukat ng border sa gilid
+                Padding: ung margin niya sa loob
+*/
+
+.box {
+  background: pink;
+  width: 300px;
+
+  Margin: 100px; /* Margin: 100px 0; gilid siya // Margin: 100px 0 200px taas at baba ng labas;
+/*  margin-bottom: 100px;   <!-- ung haba niya at igse -->
+  margin-left: 200px; */
+  border-width: 5px;
+/*  border-color: red;
+  border-style: solid; */
+
+  border-left: 5px solid black;  /* in shortcut */
+  border-right: 5px solid black;
+  border-style: double;
+  padding: 20px 90px 200px 30px;
+        /* top right bottom left ( shortcut )*/
+  /* padding-right: __px;  not shortcut */
+
+}

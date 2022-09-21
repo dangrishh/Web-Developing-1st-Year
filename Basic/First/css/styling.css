@@ -1,0 +1,47 @@
+body{
+  background-color: #a7dbe3;
+  background-image:url(../css/img/double-bubble-dark.png);
+  color: #266e94;
+  font-size: 21px;
+
+  font-family: Calibri,Candara,Segoe, "Segoe UI",Optima,Arial,sans-serif; 
+  /* to change text using this / to changes Font is go to www.css.fontstack.com*/
+}
+
+h1 {
+  font-size: 70px;
+  color:#606fd3;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', 
+  sans-serif;
+
+   margin-bottom: 0px;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 40px;
+
+  line-height: 1.4; /* this is the line of parangraph */
+
+  font-size: 30px;
+  font-style: italic;
+  font-weight: lighter;
+
+  text-align: justify;
+
+}
+
+.bolder {
+font-weight: bolder;
+text-decoration:underline;
+text-transform: lowercase;
+}
+
+.bold {
+  font-weight: bold;
+  
+}
